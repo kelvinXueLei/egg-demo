@@ -1,0 +1,24 @@
+{
+    "name": "egg-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "egg-bin dev",
+        "start": "egg-scripts start --daemon",
+        "stop": "egg-scripts stop"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "egg": "^2.9.1",
+        "egg-logger": "^1.7.1",
+        "egg-mysql": "^3.0.0",
+        "egg-redis": "^2.0.0",
+        "egg-scripts": "^2.6.0",
+        "md5": "^2.2.1"
+    },
+    "devDependencies": {
+        "egg-bin": "^4.7.1"
+    }
+}
